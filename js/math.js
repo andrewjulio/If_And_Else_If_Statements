@@ -1,7 +1,7 @@
 // declare program variables
-let num1
-let num2
-let message
+let num1;
+let num2;
+let message;
 
 // announce the program
 alert("Let's do some math!");
@@ -12,13 +12,13 @@ num1 = parseFloat(num1);
 num2 = prompt("Please type another number");
 num2 = parseFloat(num2);
 
-// check whether 2nd input is not zero & whether first or second input are numbers
+// check whether 2nd input is not zero & whether 1st or 2nd input are numbers
 if ( num2 === 0 ) {
     alert("The second number is 0. You can't divide by zero. Reload and try again.");
 } 
 else if ( isNaN(num1) || isNaN(num2) ) 
 {
-        alert("At least one of the values you typed is not a number. Reload and try again.");
+    alert("At least one of the values you typed is not a number. Reload and try again.");
 } 
 else 
 {
